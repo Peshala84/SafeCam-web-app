@@ -14,7 +14,7 @@ body{
     align-items: center;
     position: fixed; 
     width: 100%;
-    background-color:rgb(119, 129, 129);
+    background-color:rgb(220, 231, 231);
     top: 0; 
     left: 0;
 
@@ -58,9 +58,7 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
-.nav-bar-right ul li a :hover{
 
-}
 
 .nav-bar-button{
 
