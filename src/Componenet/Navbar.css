@@ -5,7 +5,6 @@
 body{
     width: 100%;
     font-family: 'Roboto', sans-serif;
-   
 }
 .nav-bar{
 
@@ -17,7 +16,7 @@ body{
     background-color:rgb(220, 231, 231);
     top: 0; 
     left: 0;
-
+    z-index: 1000;
 }
 .nav-bar-left h1{
     font-size: 40px;
@@ -31,8 +30,7 @@ body{
 .nav-bar-left{
     display: flex;
     align-items: center;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 .nav-bar-right-link{
     text-decoration: none;
@@ -43,34 +41,28 @@ body{
     gap: 60px;
     list-style: none;
     font-size: 20px;
-    color: black;
-    
-    
+    color: black;   
 }
 .nav-bar-right ul li{ 
-
     padding: 10px;
     border-radius: 20px;
-   
 }
 .nav-bar-right ul li a{
     color: black;
     font-size: 25px;
     font-weight: 600;
 }
-
-
 .nav-bar-button{
-
     margin-right: 20px;
-
 }
 .nav-bar-button{
     font-size: 20px;
     padding: 10px;
- 
     cursor: pointer;
     border-radius: 10px;
+}
+.nav-bar-button:hover{
+    background-color: rgb(198, 215, 215);
 }
 
 
