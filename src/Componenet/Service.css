@@ -2,3 +2,179 @@
     margin: 0;
     padding: 0;
 }
+.service{
+    background-image: url('../assets/image_14.jpg');
+    background-size: cover;
+    margin-top: 60px;
+   height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service h1{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+.service-page{
+    
+    display: flex;
+    flex-direction: column;
+}
+.service-page-upper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.service-page-upper h2{
+    color: blue;
+}
+.service-page-upper h1{
+    font-size: 50px;
+}
+.service-page-down{
+    display: flex;
+
+    margin: 40px 200px;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+
+}
+.service-page-down img{
+    width: 50px;
+   
+}
+.service-page-down-inside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+  
+    padding: 100px 40px; 
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 1s;
+    height: auto;
+    background-color: rgb(198, 215, 215);
+    
+}
+.service-page-down:hover .service-page-down-inside{
+    transform: scale(1.1);
+}
+.service-page-down:hover .service-page-down-inside{
+    background: linear-gradient(rgba(92, 91, 91, 0.1),rgb(178, 205, 205));;
+}
+.service-page-down-inside span{
+    color: rgb(255, 0, 0);
+}
+.service-page-down-inside button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.service-page-down-inside button:hover{
+    background-color: rgb(228, 109, 109);
+    color: white;
+}
+.offer-page{
+    background-image: url(../assets/image_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.offer-page-upper h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.offer-page-upper p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px 250px;
+}
+.offer-page-upper h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.offer-page-down{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+    
+}
+.offer-page-down button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(149, 174, 176);
+    font-size: 20px;
+    color: black;
+}
+.offer-page-down button:hover{
+    background-color: rgb(216, 233, 233);
+}
+.footer-page{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 63, 62);
+    justify-content: center;    
+    padding: 40px;
+    margin-top: 30px;
+    height: 300px;
+    
+}
+.footer-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    
+}
+.footer-inside h1{
+    font-size: 30px;
+    color: rgb(244, 114, 140);
+}
+.footer-inside h2{
+    font-size: 20px;
+    color: rgb(244, 114, 140);
+}
+.footer-inside ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-inside ul li{
+    font-size: 20px;
+}
+.footer-inside a{
+    text-decoration: none;
+    color: white;
+}
+.footer-inside p{
+    font-size: 20px;
+    margin-top: 20px;
+}

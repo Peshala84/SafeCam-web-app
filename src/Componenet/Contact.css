@@ -2,3 +2,19 @@
     margin: 0;
     padding: 0;
 }
+.contact{
+    background-image: url('../assets/image_14.jpg');
+    background-size: cover;
+    margin-top: 60px;
+   height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
