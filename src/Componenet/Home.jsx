@@ -284,7 +284,6 @@ export const Home = () => {
                 </ul>
                 </div>
      </footer>
-
 </>
   )
 }

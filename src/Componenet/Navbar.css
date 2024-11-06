@@ -52,6 +52,12 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
+.nav-bar-right ul li a:hover{
+    background-color: rgb(198, 215, 215);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(25, 22, 22);
+}
 .nav-bar-button{
     margin-right: 20px;
 }
@@ -60,6 +66,10 @@ body{
     padding: 10px;
     cursor: pointer;
     border-radius: 10px;
+}
+.nav-bar-button:hover{
+    background-color: rgb(198, 215, 215);
+    padding: 10px;
 }
 .nav-bar-button:hover{
     background-color: rgb(198, 215, 215);
