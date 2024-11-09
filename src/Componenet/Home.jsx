@@ -9,7 +9,11 @@ import image_9 from '../assets/image_9.png'
 import image_10 from '../assets/image_10.png'
 import image_11 from '../assets/image_11.png'
 import image_12 from '../assets/image_12.png'
-import image_13 from '../assets/image_13.png'
+import image_15 from '../assets/image_15.jpg'
+import image_16 from '../assets/image_16.jpg'
+import image_17 from '../assets/image_17.jpg'
+import image_18 from '../assets/image_18.jpg'
+
 
 export const Home = () => {
   return (
@@ -31,32 +35,22 @@ export const Home = () => {
 
     </div>
     <div className='about-page-upper'> 
-        <div className='about-page-upper-inside'>
+        <div className='about-page-upper-inside fade-in' id="text">
             <h2>ABOUT US</h2>
             <h1>We Offers Quality CCTV <br /> Systems & Services</h1>
-            <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Quia tenetur vero nam mollitia minus harum ipsum iure velit omnis tempore</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Esse corporis sit, officiis mollitia eum at id officia 
-                minima quaerat debitis quis velit maiores harum dolorum facere 
-                cupiditate nesciunt numquam omnis, obcaecati pariatur nisi animi 
-                aspernatur itaque! Dolorem nihil cupiditate iste laborum quas 
-                dolor corporis inventore quasi autem? At, quasi iure.</p>
+            <h4> With over 15 years of experience, we specialize in providing top-of-the-line CCTV systems and comprehensive security solutions tailored to meet the needs of businesses and homeowners alike.</h4>
+            <p>Our award-winning services include consultation, installation, and maintenance of CCTV systems designed to deliver reliable surveillance, whether for a small office or a large industrial facility. Let us help you safeguard your space with advanced technology, proven expertise, and a focus on customer satisfaction.</p>
         </div>
         <div className='about-page-down'> 
-            <div className='about-page-down-left'>
+            <div className='about-page-down-left fade-in' id="icons">
                 <img src={image_5} alt="" />
                 <h2>15 Years Experience</h2>
-
             </div>
-            <div className='about-page-down-right'>
+            <div className='about-page-down-right fade-in' id="icons">
                 <img src={image_6} alt="" />
                 <h2>Award Winning</h2>
-
             </div>
-
         </div>
-
     </div>
  </div>
 
@@ -133,13 +127,13 @@ export const Home = () => {
             </div>
             <div className='pricing-page-down-inside-down'>
                
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
+                <h3>24/7 Video Monitoring</h3>
+                <h3>Up to 4 Cameras</h3>
+                <h3>Mobile App Access</h3>
+                <h3>Basic Installation</h3>
+                <h3>Standard Support</h3>
+                <h3>Remote Viewing</h3>
+                <h3>Data Storage: 1 Month</h3>
                 <button>Order Now</button>
             </div>
 
@@ -151,13 +145,13 @@ export const Home = () => {
             </div>
             <div  className='pricing-page-down-inside-down'>
                 
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
+                <h3>24/7 Video Monitoring</h3>
+                <h3>Up to 8 Cameras</h3>
+                <h3>Mobile App & Web Access</h3>
+                <h3>Professional Installation</h3>
+                <h3>Priority Support</h3>
+                <h3>Remote Viewing</h3>
+                <h3>Data Storage: 3 Months</h3>
                 <button>Order Now</button>
             </div>
 
@@ -169,13 +163,13 @@ export const Home = () => {
             </div>
             <div  className='pricing-page-down-inside-down'>
                 
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
-                <h3>lorem</h3>
+                <h3>24/7 Video Monitoring</h3>
+                <h3>Up to 12 Cameras</h3>
+                <h3>Mobile App & Web Access</h3>
+                <h3>Professional Installation & Setup</h3>
+                <h3>Premium Support</h3>
+                <h3>Remote Viewing</h3>
+                <h3>Data Storage: 6 Months</h3>
                 <button>Order Now</button>
             </div>
 
@@ -214,32 +208,41 @@ export const Home = () => {
     <div className='member-page-down'>
         <div>
             <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
-
+                <img src={image_15} alt="" />
             </div>
             <div className='member-page-down-lower'>
                 <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
-            </div>
-
-        </div>
-        <div>
-            <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
-            </div>
-            <div className='member-page-down-lower'>
-                <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
+                <h3>Owner/Manager</h3>
             </div>
 
         </div>
         <div>
             <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
+                <img src={image_16} alt="" />
             </div>
             <div className='member-page-down-lower'>
                 <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
+                <h3>Salesperson/Consultant</h3>
+            </div>
+
+        </div>
+        <div>
+            <div className='member-page-down-inside'>
+                <img src={image_17} alt="" />
+            </div>
+            <div className='member-page-down-lower'>
+                <h2>John Doe</h2>
+                <h3>Technician</h3>
+            </div>
+
+        </div>
+        <div>
+            <div className='member-page-down-inside'>
+                <img src={image_18} alt="" />
+            </div>
+            <div className='member-page-down-lower'>
+                <h2>John Doe</h2>
+                <h3>Marketing Manager</h3>
             </div>
 
         </div>

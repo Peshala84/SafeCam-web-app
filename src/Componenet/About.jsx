@@ -19,7 +19,7 @@ export const About = () => {
         <img src={aboutimage} alt="" />
     </div>
     <div className='about-page-upper'> 
-        <div className='about-page-upper-inside'>
+        <div className='about-page-upper-inside fade-in' id="text">
             <h2>ABOUT US</h2>
             <h1>We Offers Quality CCTV <br /> Systems & Services</h1>
             <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -32,12 +32,12 @@ export const About = () => {
                 dolor corporis inventore quasi autem? At, quasi iure.</p>
         </div>
         <div className='about-page-down'> 
-            <div className='about-page-down-left'>
+            <div className='about-page-down-left fade-in' id="icons">
                 <img src={image_5} alt="" />
                 <h2>15 Years Experience</h2>
 
             </div>
-            <div className='about-page-down-right'>
+            <div className='about-page-down-right fade-in' id="icons">
                 <img src={image_6} alt="" />
                 <h2>Award Winning</h2>
             </div>
