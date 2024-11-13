@@ -8,6 +8,7 @@ import image_11 from '../assets/image_11.png'
 import image_12 from '../assets/image_12.png'
 
 
+
 export const Service = () => {
   return (
    <>

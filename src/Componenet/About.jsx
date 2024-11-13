@@ -3,8 +3,10 @@ import './About.css'
 import aboutimage from '../assets/image_3.jpg'
 import image_5 from '../assets/image_5.png'
 import image_6 from '../assets/image_6.png'
-import image_13 from '../assets/image_13.png'
-
+import image_15 from '../assets/image_15.jpg'
+import image_16 from '../assets/image_16.jpg'
+import image_17 from '../assets/image_17.jpg'
+import image_18 from '../assets/image_18.jpg'
 
 export const About = () => {
   return (
@@ -49,40 +51,50 @@ export const About = () => {
         <h2>TEAM MEMBERS</h2>
          <h1>Our Professional Team <br /> Members</h1>
     </div>
-     <div className='member-page-down'>
+    <div className='member-page-down'>
         <div>
             <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
-
+                <img src={image_15} alt="" />
             </div>
             <div className='member-page-down-lower'>
                 <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
-            </div>
-
-        </div>
-        <div>
-            <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
-            </div>
-            <div className='member-page-down-lower'>
-                <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
+                <h3>Owner/Manager</h3>
             </div>
 
         </div>
         <div>
             <div className='member-page-down-inside'>
-                <img src={image_13} alt="" />
+                <img src={image_16} alt="" />
             </div>
             <div className='member-page-down-lower'>
                 <h2>John Doe</h2>
-                <h3>CEO & Founder</h3>
+                <h3>Salesperson/Consultant</h3>
+            </div>
+
+        </div>
+        <div>
+            <div className='member-page-down-inside'>
+                <img src={image_17} alt="" />
+            </div>
+            <div className='member-page-down-lower'>
+                <h2>John Doe</h2>
+                <h3>Technician</h3>
+            </div>
+
+        </div>
+        <div>
+            <div className='member-page-down-inside'>
+                <img src={image_18} alt="" />
+            </div>
+            <div className='member-page-down-lower'>
+                <h2>John Doe</h2>
+                <h3>Marketing Manager</h3>
             </div>
 
         </div>
     </div>
 </div> 
+
 <footer className='footer-page'> 
         <div className='footer-inside'>
             <h1>SafeCam</h1>
